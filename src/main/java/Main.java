@@ -5,10 +5,10 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите номер требуемой операции");
         int number = scanner.nextInt();
-        if (number == 1){
+        if (number == 1) {
             Calculator calculator = new Calculator();
             calculator.calculate();
-        }else if (number == 2) {
+        } else if (number == 2) {
             Mass mass = new Mass();
             mass.findBiggestWordInMass();
         }
